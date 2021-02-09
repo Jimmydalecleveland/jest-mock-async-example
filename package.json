@@ -1,0 +1,27 @@
+{
+	"name": "mock-async-functions-with-jest",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"main": "index.js",
+	"author": "Jimmy Cleveland",
+	"type": "module",
+	"license": "ISC",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"setupFiles": [
+			"<rootDir>/setupTests.js"
+		]
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"jest": "^26.6.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.13",
+		"@babel/preset-env": "^7.12.13",
+		"regenerator-runtime": "^0.13.7"
+	}
+}
